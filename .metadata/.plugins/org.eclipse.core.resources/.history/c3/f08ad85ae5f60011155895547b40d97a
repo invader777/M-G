@@ -1,0 +1,24 @@
+package com.example.brambrgambr;
+
+import android.view.View;
+import android.widget.TextView;
+
+public class TimerLogic {
+
+	private int _timerState = 0;
+	
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+		_timerState++;
+		if(12 == _timerState)
+		{
+			_timerState = 0;
+		}
+	}
+	
+	public int timerState() {
+		return _timerState;
+	}
+
+}

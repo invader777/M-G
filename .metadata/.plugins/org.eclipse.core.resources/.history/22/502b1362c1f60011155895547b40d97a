@@ -1,0 +1,20 @@
+package com.example.brambrgambr;
+
+import android.view.View;
+import android.widget.TextView;
+
+public class TimerLogicListener implements View.OnClickListener {
+
+	private int _timerState = 0;
+	
+	public TimerLogicListener(TextView textView) {
+		
+	}
+	
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+		_timerState++;
+	}
+
+}

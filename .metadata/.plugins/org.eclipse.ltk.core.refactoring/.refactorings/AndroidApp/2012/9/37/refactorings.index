@@ -1,0 +1,4 @@
+1346691775617	Convert local variable 'button' to field
+1346693207329	Extracts string 'null' into R.string.super_yeah
+1346693439129	Extracts string 'null' into R.string.super_text
+1346784269642	Copy compilation unit

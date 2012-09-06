@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">BrambrGambr</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_brambr">MainBrambr</string>
+    <string name="superBrambr">Super Brambr</string>
+    <string name="time_value">Time:</string>
+    <string name="time_button_name">Start Time!!!</string>
+    <string name="super_text">Superrrrrr!@!!</string>
+    <string name="btn_click">onClick</string>
+
+</resources>

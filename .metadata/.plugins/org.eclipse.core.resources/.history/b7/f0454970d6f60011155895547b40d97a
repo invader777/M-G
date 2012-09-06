@@ -1,0 +1,30 @@
+package com.example.brambrgambr;
+
+import android.view.View;
+import android.widget.TextView;
+
+public class TimerLogicListener implements View.OnClickListener {
+
+	private int _timerState = 0;
+	private TextView _textView;
+	
+	public TimerLogicListener(TextView textView) {
+		_textView = textView;
+	}
+	
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+		_timerState++;
+		if(12 == _timerState)
+		{
+			_timerState = 0;
+		}
+		_textView.setText("couter = " + _timerState);
+	}
+	
+	public int get timerState() {
+		return _timerState;
+	}
+
+}
